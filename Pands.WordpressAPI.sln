@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pands.WordpressAPI.API", "Pands.WordpressAPI.API\Pands.WordpressAPI.API.csproj", "{86898187-AF60-4FA4-80BA-7D73F2401ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pands.WordpressAPI.DataAccess", "Pands.WordpressAPI.DataAccess\Pands.WordpressAPI.DataAccess.csproj", "{4C2D7572-DF6E-45AA-BAB8-F2F5F8392C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pands.WordpressAPI.Shared.Interfaces", "Pands.WordpressAPI.Shared.Interfaces\Pands.WordpressAPI.Shared.Interfaces.csproj", "{FDFBE229-63C2-4BF8-984D-F669090CD593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pands.WordpressAPI.CompositeRoot", "Pands.WordpressAPI.CompositeRoot\Pands.WordpressAPI.CompositeRoot.csproj", "{F04B077E-17B9-44E5-8BA3-9E2AEEA3A155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86898187-AF60-4FA4-80BA-7D73F2401ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86898187-AF60-4FA4-80BA-7D73F2401ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86898187-AF60-4FA4-80BA-7D73F2401ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86898187-AF60-4FA4-80BA-7D73F2401ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2D7572-DF6E-45AA-BAB8-F2F5F8392C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2D7572-DF6E-45AA-BAB8-F2F5F8392C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2D7572-DF6E-45AA-BAB8-F2F5F8392C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2D7572-DF6E-45AA-BAB8-F2F5F8392C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFBE229-63C2-4BF8-984D-F669090CD593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFBE229-63C2-4BF8-984D-F669090CD593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFBE229-63C2-4BF8-984D-F669090CD593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFBE229-63C2-4BF8-984D-F669090CD593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04B077E-17B9-44E5-8BA3-9E2AEEA3A155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04B077E-17B9-44E5-8BA3-9E2AEEA3A155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04B077E-17B9-44E5-8BA3-9E2AEEA3A155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04B077E-17B9-44E5-8BA3-9E2AEEA3A155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
