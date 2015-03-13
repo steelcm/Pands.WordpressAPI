@@ -26,7 +26,7 @@ namespace Pands.WordpressAPI.CompositeRoot
             For<IWordpressClientConfiguration>().Use<WordpressClientConfiguration>()
                 .Ctor<int>("blogid").Is(1)
                 .Ctor<string>("username").Is("steelcm")
-                .Ctor<string>("password").Is("bigglesworth")
+                .Ctor<string>("password").Is("")
                 .Ctor<string>("baseurl").Is("https://steelcm.wordpress.com")
                 ;
         }
