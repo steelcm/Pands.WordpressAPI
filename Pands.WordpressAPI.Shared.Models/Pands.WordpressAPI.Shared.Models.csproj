@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C2D7572-DF6E-45AA-BAB8-F2F5F8392C42}</ProjectGuid>
+    <ProjectGuid>{9465A676-D412-4154-B472-022538AE16DC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pands.WordpressAPI.DataAccess</RootNamespace>
-    <AssemblyName>Pands.WordpressAPI.DataAccess</AssemblyName>
+    <RootNamespace>Pands.WordpressAPI.Shared.Models</RootNamespace>
+    <AssemblyName>Pands.WordpressAPI.Shared.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,20 +42,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clients\WordpressClient.cs" />
-    <Compile Include="Clients\WordpressClientConfiguration.cs" />
+    <Compile Include="DataAccess\Wordpress\Comment.cs" />
+    <Compile Include="DataAccess\Wordpress\CommentFilter.cs" />
+    <Compile Include="DataAccess\Wordpress\CustomField.cs" />
+    <Compile Include="DataAccess\Wordpress\Enclosure.cs" />
+    <Compile Include="DataAccess\Wordpress\FilterBase.cs" />
+    <Compile Include="DataAccess\Wordpress\MediaFilter.cs" />
+    <Compile Include="DataAccess\Wordpress\MediaItem.cs" />
+    <Compile Include="DataAccess\Wordpress\MediaItemMetadata.cs" />
+    <Compile Include="DataAccess\Wordpress\MediaItemSizes.cs" />
+    <Compile Include="DataAccess\Wordpress\MediamItemSize.cs" />
+    <Compile Include="DataAccess\Wordpress\MediaUpload.cs" />
+    <Compile Include="DataAccess\Wordpress\Option.cs" />
+    <Compile Include="DataAccess\Wordpress\Option_Get.cs" />
+    <Compile Include="DataAccess\Wordpress\Post.cs" />
+    <Compile Include="DataAccess\Wordpress\PostCommentCount.cs" />
+    <Compile Include="DataAccess\Wordpress\PostFilter.cs" />
+    <Compile Include="DataAccess\Wordpress\PostThumnailImageMeta.cs" />
+    <Compile Include="DataAccess\Wordpress\PostType.cs" />
+    <Compile Include="DataAccess\Wordpress\Post_Put.cs" />
+    <Compile Include="DataAccess\Wordpress\Taxonomy.cs" />
+    <Compile Include="DataAccess\Wordpress\Term.cs" />
+    <Compile Include="DataAccess\Wordpress\TermFilter.cs" />
+    <Compile Include="DataAccess\Wordpress\User.cs" />
+    <Compile Include="DataAccess\Wordpress\UserFilter.cs" />
+    <Compile Include="DataAccess\Wordpress\UserRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\HomeRepository.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Pands.WordpressAPI.Shared.Interfaces\Pands.WordpressAPI.Shared.Interfaces.csproj">
-      <Project>{fdfbe229-63c2-4bf8-984d-f669090cd593}</Project>
-      <Name>Pands.WordpressAPI.Shared.Interfaces</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Pands.WordpressAPI.Shared.Models\Pands.WordpressAPI.Shared.Models.csproj">
-      <Project>{9465a676-d412-4154-b472-022538ae16dc}</Project>
-      <Name>Pands.WordpressAPI.Shared.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
