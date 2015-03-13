@@ -10,6 +10,12 @@ namespace Pands.WordpressAPI.Shared.Interfaces.DataAccess.Clients
 {
     public interface IWordpressProxy : IXmlRpcProxy
     {
+        [XmlRpcMethod("wp.getPost")]
+        Post GetPost(int blog_id, string username, string password, int post_id);
+
+        [XmlRpcMethod("wp.getPosts")]
+        Post[] GetPosts(int blog_id, string username, string password, PostFilter postFilter);
+
         [XmlRpcMethod("wp.getUser")]
         User GetUser(int blog_id, string username, string password, int user_id);
 

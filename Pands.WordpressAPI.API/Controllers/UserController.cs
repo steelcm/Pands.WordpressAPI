@@ -9,11 +9,11 @@ using WordPressSharp.Models;
 
 namespace Pands.WordpressAPI.API.Controllers
 {
-    public class HomeController : ApiController
+    public class UserController : ApiController
     {
         private readonly IRepository<User> _userRepository;
 
-        public HomeController(IRepository<User> userRepository)
+        public UserController(IRepository<User> userRepository)
         {
             _userRepository = userRepository;
         }
@@ -25,24 +25,9 @@ namespace Pands.WordpressAPI.API.Controllers
         }
 
         // GET api/<controller>/5
-        public string Get(int id)
+        public User Get(int id)
         {
-            return _userRepository.Get(o => o.Id.Equals(id.ToString())).DisplayName;
-        }
-
-        // POST api/<controller>
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
+            return _userRepository.Get(o => o.Id.Equals(id.ToString()));
         }
     }
 }

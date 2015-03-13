@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pands.WordpressAPI.Shared.Interfaces.DataAccess.Repositories
 {
-    public interface IRepository<T> : IDisposable
+    public interface IRepository<T>
     {
         IQueryable<T> List();
         T Get(Func<T, bool> where);

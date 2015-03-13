@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WordPressSharp.Models;
 
 namespace Pands.WordpressAPI.CompositeRoot
 {
@@ -15,8 +16,12 @@ namespace Pands.WordpressAPI.CompositeRoot
     {
         public CompositionRoot()
         {
+            // Repositories
             For<IRepository<String>>().Use<HomeRepository>();
+            For<IRepository<User>>().Use<UserRepository>();
+            For<IRepository<Post>>().Use<PostRepository>();
 
+            // Data Access
             For<IWordpressClient>().Use<WordpressClient>();
             For<IWordpressClientConfiguration>().Use<WordpressClientConfiguration>()
                 .Ctor<int>("blogid").Is(1)

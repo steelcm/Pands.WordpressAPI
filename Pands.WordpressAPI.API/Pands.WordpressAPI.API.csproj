@@ -98,6 +98,8 @@
     <Compile Include="App_Start\StructuremapWebApi.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
@@ -129,6 +131,10 @@
     <ProjectReference Include="..\Pands.WordpressAPI.Shared.Interfaces\Pands.WordpressAPI.Shared.Interfaces.csproj">
       <Project>{fdfbe229-63c2-4bf8-984d-f669090cd593}</Project>
       <Name>Pands.WordpressAPI.Shared.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pands.WordpressAPI.Shared.Models\Pands.WordpressAPI.Shared.Models.csproj">
+      <Project>{9465a676-d412-4154-b472-022538ae16dc}</Project>
+      <Name>Pands.WordpressAPI.Shared.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
