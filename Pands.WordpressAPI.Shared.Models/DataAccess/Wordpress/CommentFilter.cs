@@ -1,6 +1,6 @@
 ﻿using CookComputing.XmlRpc;
 
-namespace WordPressSharp.Models
+namespace Pands.WordpressAPI.Shared.Models.DataAccess.Wordpress
 {
     [XmlRpcMissingMapping(MappingAction.Ignore)]
     public class CommentFilter : FilterBase

@@ -1,4 +1,4 @@
-﻿namespace WordPressSharp.Models
+﻿namespace Pands.WordpressAPI.Shared.Models.DataAccess.Wordpress
 {
     public abstract class FilterBase
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using WordPressSharp.Models;
+using Pands.WordpressAPI.Shared.Models.DataAccess.Wordpress;
 
 namespace Pands.WordpressAPI.API.Controllers
 {

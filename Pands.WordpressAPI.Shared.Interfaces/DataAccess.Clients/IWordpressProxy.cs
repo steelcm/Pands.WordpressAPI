@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WordPressSharp.Models;
+using Pands.WordpressAPI.Shared.Models.DataAccess.Wordpress;
 
 namespace Pands.WordpressAPI.Shared.Interfaces.DataAccess.Clients
 {

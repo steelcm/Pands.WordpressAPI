@@ -1,6 +1,6 @@
 ﻿using CookComputing.XmlRpc;
 
-namespace WordPressSharp.Models
+namespace Pands.WordpressAPI.Shared.Models.DataAccess.Wordpress
 {
     public class UserFilter : FilterBase
     {

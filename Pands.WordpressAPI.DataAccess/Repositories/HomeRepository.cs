@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Pands.WordpressAPI.Shared.Interfaces.DataAccess.Repositories;
 using Pands.WordpressAPI.Shared.Interfaces.DataAccess.Clients;
 using Pands.WordpressAPI.DataAccess.Clients;
-using WordPressSharp.Models;
+using Pands.WordpressAPI.Shared.Models.DataAccess.Wordpress;
 
 namespace Pands.WordpressAPI.DataAccess.Repositories
 {

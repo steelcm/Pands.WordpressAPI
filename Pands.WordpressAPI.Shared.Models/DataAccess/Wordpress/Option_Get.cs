@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CookComputing.XmlRpc;
 
-namespace WordPressSharp.Models
+namespace Pands.WordpressAPI.Shared.Models.DataAccess.Wordpress
 {
     public class Option_Get
     {
